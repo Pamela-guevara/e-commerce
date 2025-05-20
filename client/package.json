@@ -1,0 +1,80 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "chai-properties": "^1.4.0",
+    "chai-things": "^0.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-config-fullstack": "^6.0.0",
+    "eslint-plugin-react": "^7.20.5",
+    "faker": "^4.1.0",
+    "fs-misc": "^2.0.0",
+    "ignore-styles": "^5.0.1",
+    "mocha": "^8.1.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0",
+    "supertest": "^4.0.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-beforeunload": "^2.2.4",
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "uuid": "^8.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha ./tests --recursive --watch --require @babel/register --require ignore-styles",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "react-app",
+    "parser": "babel-eslint",
+    "rules": {
+      "semi": 0
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi");
+
+.card {
+  height: 327px;
+  width: 210px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.contenedorimg {
+  float: left;
+  height: 109px;
+  width: 210px;
+}
+
+.imagen {
+  border-radius: 7px 0 0 7px;
+  max-width: 130%;
+  max-height: 130%;
+}
+
+.product-info {
+  float: left;
+  height: 420px;
+  width: 327px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+  height: 300px;
+  width: 327px;
+}
+
+.product-text h3 {
+  font-family: "Bentham", serif;
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #474747;
+}
+
+.product-text h4 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: "Playfair Display", serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.descriptionText {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Playfair Display", serif;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
